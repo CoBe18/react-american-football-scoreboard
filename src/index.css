@@ -38,14 +38,14 @@ button {
   font-size: 1.6rem;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: background 270ms ease-in-out, transform 170ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
 button:hover,
 button:focus {
-  background: #a2272d;
+  background: #f77f00;
 }
 
 button:focus {
