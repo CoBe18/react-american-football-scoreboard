@@ -32,27 +32,50 @@ button {
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #414141;
-  color: #ffffff;
+  background: #FF8200;
+  color: #000000;
   font-family: inherit;
   font-size: 1.6rem;
   cursor: pointer;
   text-align: center;
-  transition: background 270ms ease-in-out, transform 170ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
-button:hover,
-button:focus {
-  background: #f77f00;
-}
 
 button:focus {
-  outline: 1px solid #fff;
+  outline: 1.75px solid rgb(39, 40, 41);
   outline-offset: -4px;
 }
 
 button:active {
   transform: scale(0.99);
+}
+
+button:hover,
+button:focus {
+  background: #58595B;
+}
+
+
+.buttons {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.homeButtons__touchdown,
+.homeButtons__fieldGoal,
+.awayButtons__touchdown,
+.awayButtons__fieldGoal {
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+
+p{
+  font-size: 2rem;
 }
